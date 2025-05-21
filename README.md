@@ -1,2 +1,1 @@
-# flemonade
-Flemonade official website
+## Site template v1
