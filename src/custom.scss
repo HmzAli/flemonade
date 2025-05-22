@@ -1,2 +1,13 @@
 @use './variables' as *;
 
+.section-sep {
+    position: absolute;
+    top: -5.8rem;
+    right: 0;
+    left: 3.2rem;
+    margin: auto;
+}
+
+.cta-wrapper {
+    text-align: center;
+}

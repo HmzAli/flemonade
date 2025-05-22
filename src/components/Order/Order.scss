@@ -1,0 +1,22 @@
+@use '../../variables' as *;
+
+.order {
+  z-index: 2;
+  background-color: $color-secondary;
+  padding-bottom: 3rem;
+  color: $color-tertiary;
+  margin-top: 4rem;
+
+  .main-section__title {
+    transform: translateY(-6rem);
+    cursor: pointer;
+  }
+
+  .section-sep {
+    top: -5.8rem;
+  }
+
+  * {
+    color: inherit;
+  }
+} 

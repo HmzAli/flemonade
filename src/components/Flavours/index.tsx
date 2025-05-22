@@ -3,6 +3,8 @@ import "./Flavours.scss"
 const Flavours = () => {
   return (
     <section className="flavours main-section">
+      <img src="./bottle-silhouette-white.png" className="section-sep" />
+
       <div className="container">
         <h2 className="main-section__title" data-content-id="flavour-section-title">EXPLORE FALVOURS</h2>
         

@@ -5,12 +5,18 @@
 @import './custom.scss';
 
 /* Global Styles */
-html, body {
+html {
   font-family: 'Merriweather Sans';
   font-weight: 300;
   line-height: 1.5;
   color: $color-quaternary;
   font-size: 18px;
+}
+
+body {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 1rem;
 }
 
 // Typeography
@@ -30,6 +36,10 @@ h3 {
 
 h4 {
   font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
 }
 
 // Buttons
@@ -77,6 +87,7 @@ h4 {
 
 // Containers
 .main-section {
+  position: relative;
   padding-top: 30px;
   padding-bottom: 30px;
   

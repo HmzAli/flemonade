@@ -13,8 +13,6 @@ const MainBanner = () => {
       <figure className="banner-video">
         <video src="./flemonade-banner.mp4" autoplay={true} muted={true} loop={true}></video>
       </figure>
-
-      <img src="./bottle-silhouette-white.png" className="section-sep" />
     </section>
   )
 }
