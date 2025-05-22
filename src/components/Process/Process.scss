@@ -1,0 +1,14 @@
+@use '../../variables' as *;
+
+.process {
+  background-color: $color-primary;
+  color: $color-secondary;
+
+  * {
+    color: inherit;
+  }
+
+  .main-section__title {
+    transform: translateY(-6rem);
+  }
+} 
