@@ -12,7 +12,7 @@ import Theme from './pages/Theme/index.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter basename="/flemonade">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/theme" element={<Theme />} />
