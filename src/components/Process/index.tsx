@@ -6,15 +6,39 @@ const Process = () => {
       <img src="./bottle-silhouette-yellow.png" className="section-sep" />
 
       <div className="container">
-        <h2 className="main-section__title"> The journey </h2>
+        <h2 className="main-section__title"> Ingredients </h2>
 
-        <div className="row">
+        <div className="row sub-section">
           <div className="col-md-5">
-
+            <figure className="image-wrapper">
+              <img src="./lemon-crate.webp" alt="lemon crate" />
+            </figure>
           </div>
 
           <div className="col-md-7">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga sint provident ea sed, minima numquam deserunt accusantium, doloremque, earum culpa pariatur hic quam! Quod laborum vero eligendi! Placeat, suscipit dolore!</p>
+            <div className="content-wrapper">
+              <div>
+                <p>
+                We source premium ingredients from KL's best supermarkets. Each of the ingredients is hand-picked and meets our strict standards for freshness and flavor.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row sub-section">
+          <div className="col-md-5">
+            <figure className="image-wrapper">
+              <img src="./asam-boi.png" alt="asam boi" />
+            </figure>
+          </div>
+
+          <div className="col-md-7">
+            <div className="content-wrapper content-left">
+              <p>
+              Our ingredients are prepared fresh daily to preserve maximum taste. Both lemonade variants showcase quality ingredients crafted for that perfect refreshing experience.
+              </p>
+            </div>
           </div>
         </div>
       </div>
