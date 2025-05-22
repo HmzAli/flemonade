@@ -40,4 +40,16 @@
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
+  @include mobile {
+    text-align: center;
+    
+    .image-wrapper {
+      max-width: 150px;
+      margin: auto;
+      margin-bottom: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 } 

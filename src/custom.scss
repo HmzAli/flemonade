@@ -19,9 +19,11 @@ body {
     }
 
     .main-section {
-        .main-section__title {
-            transform: translateY(-4rem);
-            font-size: 1.2rem;
+        @include mobile {
+            .main-section__title {
+                transform: translateY(-4rem);
+                font-size: 1.2rem;
+            }
         }
     }
 }

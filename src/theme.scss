@@ -116,6 +116,10 @@ p {
 .content-wrapper {
   position: relative;
   max-width: 23.889rem;
+
+  @include mobile {
+    margin: auto;
+  }
 }
 
 // Image

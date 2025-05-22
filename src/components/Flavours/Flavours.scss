@@ -11,7 +11,15 @@
 
   .main-section__title {
     transform: translateY(-6rem);
-    cursor: pointer;
+
+    a {
+      text-decoration: none;
+      color: initial;
+  
+      &:hover {
+          text-decoration: none;
+      }
+    }
   }
 
   .flavour-wrapper {
@@ -43,5 +51,31 @@
 
   .flavour-variation {
     max-height: 21.5rem;
+  }
+
+  @include mobile {
+    &.main-section {
+      padding-bottom: 2rem;
+    }
+
+    .product-bottle {
+      height: 200px;
+      margin-bottom: 2rem;
+      margin-left: initial;
+      margin: auto;
+      margin-bottom: 2rem;
+    }
+
+    .content-wrapper {
+      text-align: center;
+    }
+
+    .flavour-variation {
+      ul {
+        text-align: left;
+        width: 100px;
+        margin: auto;
+      }
+    }
   }
 } 

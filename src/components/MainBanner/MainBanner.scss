@@ -24,6 +24,8 @@
     }
 
     @include mobile {
+        height: 50vh;
+
         .tagline__title {
             font-size: 3.5rem;
         }
