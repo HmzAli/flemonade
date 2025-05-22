@@ -1,6 +1,7 @@
 @use '../../variables' as *;
 
 .process {
+  z-index: 1;
   background-color: $color-primary;
   color: $color-secondary;
   min-height: 650px;

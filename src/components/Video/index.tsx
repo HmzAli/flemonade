@@ -8,9 +8,14 @@ const Video = () => {
   const defaultPlaybackRate = 1;
   const scrollPlaybackRate = 8;
   const [isScrolling, setIsScrolling] = useState(false);
+  const isSafari = /apple/i.test(navigator.vendor) && /safari/i.test(navigator.userAgent);
 
   useEffect(() => {
     const handleScroll = () => {
+      if (isSafari) {
+        return;
+      }
+  
       if (!isScrolling) {
         setIsScrolling(true);
       }
