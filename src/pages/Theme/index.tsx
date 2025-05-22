@@ -29,6 +29,10 @@ function Theme() {
           </div>
 
           <div className="btn-container">
+            <button className="btn btn-secondary">Order Now</button>
+          </div>
+
+          <div className="btn-container">
             <button className="btn btn-outline">Order later</button>
           </div>
 

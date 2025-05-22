@@ -1,0 +1,18 @@
+@use '../../variables' as *;
+
+.footer {
+  background-color: $color-secondary;
+  color: $color-tertiary;
+  padding-bottom: 1.5rem;
+  
+
+  .container {
+    text-align: center;
+  }
+
+  .copyright {
+    margin: 0;
+    font-size: .6rem;
+    opacity: 0.8;
+  }
+} 

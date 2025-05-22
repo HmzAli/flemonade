@@ -11,6 +11,10 @@ html {
   line-height: 1.5;
   color: $color-quaternary;
   font-size: 18px;
+
+  @include mobile {
+    font-size: 16px;
+  }
 }
 
 body {
@@ -67,6 +71,18 @@ p {
   &:active {
     box-shadow: -0.07rem 0.06rem 0.06rem rgba(0, 0, 0, 0.4) !important;
     transform: translate(-0.06rem, 0.06rem);
+  }
+
+  &.btn-secondary {
+    background-color: $color-primary;
+    color: $color-secondary;
+
+    &:hover,
+    &:active {
+      border: 0;
+      background-color: $color-tertiary !important;
+      color: $color-secondary !important;
+    }
   }
 
   &.btn-outline {

@@ -6,7 +6,7 @@ const MainBanner = () => {
       <div className="container">
         <div className="tagline" data-content-id="tagline">
            <h1 className="tagline__title">FLEMONADE</h1>
-           <p className="tagline__description">Refreshing homemade lemonade for office </p>
+           <p className="tagline__description">Premium homemade lemonade for busy professionals</p>
         </div>
       </div>
 

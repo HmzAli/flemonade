@@ -9,6 +9,23 @@
     margin: auto;
 }
 
+body {
+    .section-sep {
+        @include mobile {
+            width: 15.333rem;
+            top: -3.0rem;
+            left: 0;
+        }
+    }
+
+    .main-section {
+        .main-section__title {
+            transform: translateY(-4rem);
+            font-size: 1.2rem;
+        }
+    }
+}
+
 .cta-wrapper {
     text-align: center;
 }
