@@ -5,8 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: process.env.BASE_URL || '/flemonade/',
-  build: {
-    outDir: 'dist',
-    emptyOutDir: true,
-  },
+  // build: {
+  //   outDir: 'dist',
+  //   emptyOutDir: true,
+  // },
 })
