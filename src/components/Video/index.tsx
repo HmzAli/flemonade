@@ -43,7 +43,7 @@ const Video = () => {
 
   return (
     <figure className="banner-video">
-      <video ref={videoRef} src="./flemonade-banner.mp4" type="video/mp4" autoPlay muted loop></video>
+      <video ref={videoRef} src="./flemonade-banner.mp4" autoPlay muted loop></video>
     </figure>
   )
 }

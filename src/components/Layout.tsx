@@ -11,7 +11,9 @@ interface LayoutProps {
 
 function Layout({ children }: LayoutProps) {
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      once: true,
+    });
   }, []);
 
   return (
