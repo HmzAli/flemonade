@@ -2,6 +2,7 @@
 
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import './fonts.css';
+@import './custom.scss';
 
 /* Global Styles */
 html, body {
@@ -12,16 +13,23 @@ html, body {
   font-size: 18px;
 }
 
-.main-section {
-    .main-section__title {
-        margin-bottom: 2rem;
-        text-align: center;
-    }
+// Typeography
+h1, h2, h3, H4 {
+  font-family: 'norwester.otf';
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
 }
 
-// Typeography
-h1, h2, h3 {
-  font-family: 'norwester.otf';
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
 }
 
 // Buttons
@@ -65,6 +73,26 @@ h1, h2, h3 {
       border: 1px solid $color-primary;
     }
   }
+}
+
+// Containers
+.main-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+  &__title {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
+
+.content-wrapper {
+  position: relative;
+}
+
+// Image
+figure {
+  margin: 0;
 }
 
 // Others

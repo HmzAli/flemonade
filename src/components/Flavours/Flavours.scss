@@ -13,5 +13,41 @@
 
   .main-section__title {
     transform: translateY(-6rem);
+    cursor: pointer;
+  }
+
+  .flavour-wrapper {
+    margin-bottom: 5rem;
+  }
+
+  .flavour-body {
+    margin-bottom: 1.5rem;
+  }
+
+  .product-bottle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 21rem;
+    max-width: 400px;
+    margin-left: auto;
+
+    img {
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  .product-bottle {
+    max-width: 200px;
+    margin-left: auto;
+  }
+
+  .flavour-variation {
+    max-height: 21.5rem;
+  }
+
+  .content-wrapper {
+    max-width: 430px;
   }
 } 
