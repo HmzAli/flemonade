@@ -1,4 +1,5 @@
 import "./MainBanner.scss"
+import Video from "../Video"
 
 const MainBanner = () => {
   return (
@@ -9,10 +10,7 @@ const MainBanner = () => {
            <p className="tagline__description">Premium homemade lemonade for busy professionals</p>
         </div>
       </div>
-
-      <figure className="banner-video">
-        <video src="./flemonade-banner.mp4" autoplay="true" muted={true} loop={true}></video>
-      </figure>
+      <Video />
     </section>
   )
 }

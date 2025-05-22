@@ -11,13 +11,13 @@ const Flavours = () => {
         <div className="flavour-wrapper">
           <div className="row">
             <div className="col-md-5">
-              <figure className="product-bottle">
+              <figure className="product-bottle" data-aos="fade-up" data-aos-duration="1000">
                 <img src="./flemonade--original.png" alt="original" />
               </figure>
             </div>
 
             <div className="col-md-7">
-              <div className="content-wrapper" data-content-id="flavour-desc">
+              <div className="content-wrapper" data-content-id="flavour-desc" data-aos="fade-up" data-aos-duration="800">
                 <h2> ORIGINAL </h2>
 
                 <div className="flavour-body">
@@ -36,16 +36,16 @@ const Flavours = () => {
           </div>
         </div>
 
-        <div className="flavour-wrapper">
+        <div className="flavour-wrapper" data-aos-delay="1000">
           <div className="row">
             <div className="col-md-5">
-              <figure className="product-bottle">
+              <figure className="product-bottle" data-aos="fade-up" data-aos-duration="1000">
                 <img src="./flemonade--asam-boi.png" alt="original" />
               </figure>
             </div>
 
             <div className="col-md-7">
-              <div className="content-wrapper" data-content-id="flavour-desc">
+              <div className="content-wrapper" data-content-id="flavour-desc" data-aos="fade-up" data-aos-duration="800">
                 <h2> ASAM BOI </h2>
 
                 <div className="flavour-body">

@@ -12,7 +12,7 @@
   }
 
   .cta-wrapper {
-    transform: translateY(-30px);
+    transform: translateY(-50px);
 
     .btn {
       font-size: 2rem;
@@ -35,6 +35,8 @@
     }
 
     .cta-wrapper {
+      transform: translateY(-15px);
+      
       .btn {
         font-size: 1.5rem;
       }

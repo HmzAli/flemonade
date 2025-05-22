@@ -1,12 +1,20 @@
-import { ReactNode } from 'react'
+import { ReactNode, useEffect } from 'react'
 import Header from './Header'
 import Footer from './Footer'
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 interface LayoutProps {
   children: ReactNode
 }
 
 function Layout({ children }: LayoutProps) {
+  useEffect(() => {
+    AOS.init({
+    });
+  }, []);
+
   return (
     <>
       <Header />
