@@ -7,12 +7,13 @@ import './theme.scss'
 import Index from './pages/Index/Index.tsx'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 
-import { BrowserRouter, Route, Routes } from 'react-router'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Theme from './pages/Theme/index.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    {/* Add the basename prop here: */}
+    <BrowserRouter basename="/flemonade/">
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/theme" element={<Theme />} />

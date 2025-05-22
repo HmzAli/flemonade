@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "BASE_URL=/ vite",
     "build": "tsc -b && vite build",
-    "deploy" : "gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -15,9 +15,12 @@
     "animate.css": "^4.1.1",
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.3.5",
+    "install": "^0.13.0",
+    "npm": "^11.4.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^7.5.3",
+    "react-router-dom": "^7.6.0",
     "scrollmagic": "^2.0.8"
   },
   "devDependencies": {
