@@ -13,6 +13,7 @@ function Layout({ children }: LayoutProps) {
   useEffect(() => {
     AOS.init({
       once: true,
+      disable: 'mobile',
     });
   }, []);
 
