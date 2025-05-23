@@ -9,7 +9,6 @@
     height: 100%;
     background-image: url('./mobile-bg.webp');
     background-size: cover;
-    height: 51vh;
 
     video {
         width: 100%;
@@ -19,6 +18,8 @@
     }
 
     @include mobile {
+        height: 51vh;
+
         video {
             display: none;
         }

@@ -12,7 +12,7 @@ const Flavours = () => {
           <div className="row">
             <div className="col-md-5">
               <figure className="product-bottle" data-aos="fade-up" data-aos-duration="1000">
-                <img src="./flemonade--original.png" alt="original" />
+                <img src="./flemonade--original.webp" alt="original" />
               </figure>
             </div>
 
@@ -40,7 +40,7 @@ const Flavours = () => {
           <div className="row">
             <div className="col-md-5">
               <figure className="product-bottle" data-aos="fade-up" data-aos-duration="1000">
-                <img src="./flemonade--asam-boi.png" alt="original" />
+                <img src="./flemonade--asam-boi.webp" alt="asam boi" />
               </figure>
             </div>
 

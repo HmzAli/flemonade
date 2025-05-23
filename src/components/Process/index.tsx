@@ -29,7 +29,7 @@ const Process = () => {
         <div className="row sub-section" data-aos-delay="2000">
           <div className="col-md-5">
             <figure className="image-wrapper" data-aos="fade-up" data-aos-duration="1000">
-              <img src="./asam-boi.png" alt="asam boi" />
+              <img src="./asam-boi.webp" alt="asam boi" />
             </figure>
           </div>
 
