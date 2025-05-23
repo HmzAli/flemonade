@@ -44,6 +44,10 @@ const Video = () => {
   return (
     <figure className="banner-video">
       <video ref={videoRef} src="./flemonade-banner.mp4" autoPlay muted loop></video>
+
+      <div className="placeholder-image">
+        <img src="main-banner.webp" alt="Flemonade" />
+      </div>
     </figure>
   )
 }
