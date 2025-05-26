@@ -1,0 +1,22 @@
+@use '../../variables' as *;
+
+.logo {
+  max-width: 10rem;
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  &--primary {
+    img {
+      filter: brightness(0) saturate(100%) invert(85%) sepia(30%) saturate(638%) hue-rotate(358deg) brightness(103%) contrast(107%);
+    }
+  }
+
+  &--invert {
+    img {
+      filter: brightness(0) invert(1);
+    }
+  }
+} 

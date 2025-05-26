@@ -1,14 +1,14 @@
 import './Header.scss'
+import Logo from "../Logo"
 
-export default function Header() {
+const Header = () => {
     return (
         <header id="header">
             <div className="container">
-                <div className="row">
-                    <div className="col-12">
-                    </div>
-                </div>
+                <Logo variant="invert" />
             </div>
         </header>
     )
 }
+
+export default Header
