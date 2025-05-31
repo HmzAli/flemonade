@@ -7,34 +7,24 @@
   left: 0;
   width: 100%;
 
+  > .container {
+    position: relative;
+    z-index: 100;
+  }
+  
+  .nav-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
   .header-inner {
     position: relative;
     display: flex;
     justify-content: center;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-  }
-
-  img {
-    transition: opacity .2s ease-in-out;
-
-    &:hover {
-      opacity: 0.8;
-    }
-  }
-
-  .menu-button {
-    @include has-bg;
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 1.5rem;
-    height: 100%;
-    width: 80px;
-    background-image: url(/menu.png);
-    background-position: center center;
-    cursor: pointer;
-    
   }
 }

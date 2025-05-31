@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import 'jquery/dist/jquery.min.js'
 import './theme.scss'
 
 import Index from './pages/Index/Index.tsx'

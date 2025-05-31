@@ -30,3 +30,4 @@ For each page directory `{PageName}`:
 
 ## Module import guidelines
  - Use single quote in all module imports, e.g. import 'custom.scss'. This applies to all modules, JS, scss, TS, etc
+ - Make sure to use signle quote when importing a module in JS e.g. import { useEffect } from 'react';
