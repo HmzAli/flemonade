@@ -8,6 +8,10 @@ const MainBanner = () => {
            <h1 className="tagline__title" data-aos="fade-in" data-aos-duration="500">HOME MADE LEMONADE</h1>
            <p className="tagline__description" data-aos="fade-in" data-aos-duration="800">Premium Taste. Made for Everyone.</p>
         </div>
+
+        <div className="cta-wrapper">
+        <a target="_blank" href="https://wa.me/+601111474404" className="btn btn-secondary">ORDER ON WHATSAPP</a>
+      </div>
       </div>
 
       <figure className="banner-image" data-aos="fade-in" data-aos-duration="200">

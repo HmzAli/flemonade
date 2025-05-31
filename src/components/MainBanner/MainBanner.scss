@@ -13,6 +13,10 @@
         color: inherit;
     }
 
+    .cta-wrapper {
+        margin-top: 2rem;
+    }
+
     .banner-image {
         position: fixed;
     }
@@ -49,13 +53,14 @@
 .product-image {
     @extend .image;
     z-index: -1;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: -0.556rem;
-    width: 40rem;
-    height: 27.889rem;
+    width: 29rem;
+    height: 20.889rem;
 
     img {
+        // filter: brightness(0.8);
         object-fit: contain;
     }
 }
