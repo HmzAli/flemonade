@@ -5,6 +5,7 @@ $color-quaternary: #333;
 $color-quinary: #666;
 $color-senary: #999;
 $color-septenary: #ddd;
+$color-light: #ffffff;
 
 // Element colors
 $color-font: #333333;
@@ -36,4 +37,44 @@ $text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.5);
   @media (max-width: 767px) {
     @content;
   }
+}
+
+// Images
+@mixin has-bg {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.image {
+  position: relative;
+
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+  }
+}
+
+.banner-image {
+  @extend .image;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.floating-image {
+  @extend .image;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }

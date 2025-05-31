@@ -1,6 +1,40 @@
 @use '../../variables' as *;
 
 #header {
-    
-}
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 
+  .header-inner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  img {
+    transition: opacity .2s ease-in-out;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .menu-button {
+    @include has-bg;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 1.5rem;
+    height: 100%;
+    width: 80px;
+    background-image: url(/menu.png);
+    background-position: center center;
+    cursor: pointer;
+    
+  }
+}

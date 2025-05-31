@@ -13,9 +13,13 @@
         color: inherit;
     }
 
+    .banner-image {
+        position: fixed;
+    }
+
     @include tablet {
         .tagline__title {
-            font-size: 6rem;
+            font-size: 3.5rem;
         }
 
         .tagline__description {
@@ -42,33 +46,32 @@
     }
 }
 
-.banner-video {
+.product-image {
+    @extend .image;
     z-index: -1;
     position: absolute;
-    top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    bottom: -0.556rem;
+    width: 40rem;
+    height: 27.889rem;
 
-    video {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        filter: saturate(1.3);
+    img {
+        object-fit: contain;
     }
 }
 
 .tagline {
     text-align: center;
+    font-size: 1rem;
 
     &__title {
-        font-size: 10rem;
-        margin-bottom: 0rem;
+        font-size: 3.5em;
+        margin-bottom: 0em;
         text-shadow: $text-shadow;
     }
 
     &__description {
-        font-size: 1.83rem;
+        font-size: 1.91em;
         text-shadow: $text-shadow;
     }
 }

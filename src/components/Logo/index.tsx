@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import './Logo.scss'
+import { Link } from 'react-router'
 
 interface LogoProps {
   variant?: 'primary' | 'invert'
@@ -8,9 +9,9 @@ interface LogoProps {
 const Logo: FC<LogoProps> = ({ variant = 'primary' }) => {
   return (
     <div className={`logo logo--${variant}`}>
-      <img src="/logo.svg" alt="Flemonade Logo" />
+      <Link to="/"><img src="/logo.svg" alt="Flemonade Logo" /></Link>
     </div>
   )
 }
 
-export default Logo 
+export default Logo

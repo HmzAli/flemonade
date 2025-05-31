@@ -9,7 +9,6 @@ html {
   font-family: 'Merriweather Sans';
   font-weight: 300;
   line-height: 1.5;
-  color: $color-quaternary;
   font-size: 18px;
 
   @include mobile {
@@ -21,7 +20,6 @@ body {
   font-family: inherit;
   font-weight: inherit;
   font-size: 1rem;
-  background-color: $color-secondary;
 }
 
 // Typeography

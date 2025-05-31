@@ -1,7 +1,12 @@
 @use '../../variables' as *;
 
 .logo {
-  max-width: 10rem;
+  width: 10rem;
+  text-align: center;
+  
+  a {
+    display: block;
+  }
   
   img {
     width: 100%;
