@@ -1,23 +1,36 @@
 import './Header.scss'
 import Logo from '../Logo'
 import Navbar from '../Navbar'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import NavButton from '../NavButton'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false)
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
 
-  return (
-    <header id="header">
-      <div className="container">
-        <div className="header-inner">
-          <Logo variant="invert" />
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY
+      setIsScrolled(scrollPosition > 10)
+    }
 
-          <NavButton isOpen={isMenuOpen} onClick={toggleMenu} />
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
+  return (
+    <header id="header" className={isScrolled ? 'scrolled' : ''}>
+      <div className="header-outer">
+        <div className="container">
+          <div className="header-inner">
+            <Logo variant="invert" />
+
+            <NavButton isOpen={isMenuOpen} onClick={toggleMenu} />
+          </div>
         </div>
       </div>
 

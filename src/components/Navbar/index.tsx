@@ -1,19 +1,23 @@
-import { useEffect } from 'react'
+import { Link } from 'react-router';
 import './Navbar.scss'
 
-const Navbar = ({ isMenuOpen }) => {
+interface NavbarProps {
+  isMenuOpen: boolean;
+}
+
+const Navbar = ({ isMenuOpen }: NavbarProps) => {
   return (
     <div className={`navbar ${isMenuOpen ? 'open' : ''}`}>
       <nav className={isMenuOpen ? 'open' : ''}>
         <ul className="nav-list">
           <li>
-            <a href="#" className="nav-link">Home</a>
+            <Link to="/" className="nav-link">Home</Link>
           </li>
           <li>
-            <a href="#" className="nav-link">Story</a>
+            <Link to="/story" className="nav-link">Story</Link>
           </li>
           <li>
-            <a href="#" className="nav-link">Contact</a>
+            <Link to="/contact" className="nav-link">Contact</Link>
           </li>
         </ul>
       </nav>
