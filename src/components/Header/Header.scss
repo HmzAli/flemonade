@@ -40,7 +40,7 @@
   .header-inner {
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
@@ -49,9 +49,10 @@
 body {
   #header {
     &.scrolled {
+      @include box-shadow;
+      
       .header-outer {
-        background: #444;
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(241, 204, 27, 0.9);
       }
 
       .header-inner {

@@ -12,6 +12,12 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen)
   }
 
+  const handleKeyDown = (event) => {
+    if (event.key === 'Escape') {
+      setIsMenuOpen(false);
+    }
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY
@@ -19,8 +25,17 @@ const Header = () => {
     }
 
     window.addEventListener('scroll', handleScroll)
+  
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
+
+  useEffect(() => {
+    document.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
 
   return (
     <header id="header" className={isScrolled ? 'scrolled' : ''}>
@@ -34,7 +49,7 @@ const Header = () => {
         </div>
       </div>
 
-      <Navbar isMenuOpen={isMenuOpen} />
+      <Navbar isMenuOpen={isMenuOpen} closeMenu={() => setIsMenuOpen(false)} />
     </header>
   )
 }
