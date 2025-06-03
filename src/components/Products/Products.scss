@@ -40,8 +40,9 @@
     .image-secondary {
       z-index: -1;
       position: absolute;
-      width: 16rem;
+      width: 13rem;
       opacity: 0.8;
+      overflow: hidden;
     }
   }
 

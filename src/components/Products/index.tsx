@@ -143,6 +143,10 @@ const Products = () => {
             </div>
           </div>
         </Slider>
+
+        <div className="cta-wrapper">
+          <a target="_blank" href="https://wa.me/+601111474404" className="btn btn-secondary">ORDER ON WHATSAPP</a>
+        </div>
       </div>
     </section>
   )
