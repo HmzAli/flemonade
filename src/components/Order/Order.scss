@@ -2,17 +2,26 @@
 
 .order {
   z-index: 2;
-  background-color: $color-secondary;
+  background-color: $color-primary;
   padding-bottom: 3rem;
-  color: $color-tertiary;
+  // color: $color-tertiary;
 
   .main-section__title {
     transform: translateY(-6rem);
     cursor: pointer;
   }
 
+  .pickup-date {
+    text-align: center;
+  }
+
   .cta-wrapper {
     transform: translateY(-50px);
+
+    .order-info {
+      margin-bottom: 2rem;
+      font-size: 1.2rem;
+    }
 
     .btn {
       font-size: 2rem;

@@ -7,6 +7,8 @@ import './theme.scss'
 
 import Index from './pages/Index/Index.tsx'
 import PrivacyPolicy from './pages/PrivacyPolicy'
+import AboutUs from './pages/AboutUs'
+import Partner from './pages/Partner'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Theme from './pages/Theme/index.tsx'
@@ -19,6 +21,8 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/" element={<Index />} />
         <Route path="/theme" element={<Theme />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/partner" element={<Partner />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

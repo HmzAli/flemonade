@@ -3,11 +3,14 @@
 .nav-button {
   display: block;
   position: relative;
-  width: 60px;
+  width: 3.75rem;
   height: 60px;
   cursor: pointer;
 
   .menu-btw-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
     position: relative;
   }
 
