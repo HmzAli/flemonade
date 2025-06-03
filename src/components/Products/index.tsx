@@ -134,7 +134,7 @@ const Products = () => {
 
                     <div className="product-desc">
                       <div className="product-caption">
-                      Original flavour lemonade upgraded with refreshing carbonation and premium sugar for enhanced experience
+                      Sparkling original flavour lemonade with fizz taking your refreshment next level
                       </div>
                     </div>
                   </div>

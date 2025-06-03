@@ -5,6 +5,10 @@
   position: relative;
   background-color: $color-tertiary;
 
+  .cta-wrapper {
+    margin-bottom: 3rem;
+  }
+
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -46,12 +50,12 @@
     }
   }
 
-  .content-wrapper {
+  .content-wrapper {  
     padding: 1.5rem;
   }
 
   .product-body {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 
     .price {
       font-weight: 600;

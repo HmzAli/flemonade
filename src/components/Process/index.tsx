@@ -8,35 +8,53 @@ const Process = () => {
       <div className="container">
         <h2 className="main-section__title"> Ingredients </h2>
 
-        <div className="row sub-section">
-          <div className="col-md-5">
-            <figure className="image-wrapper" data-aos="fade-in" data-aos-duration="1000">
-              <img src="./lemon-crate.webp" alt="lemon crate" />
-            </figure>
+        <div className="ingredient-list row gx-0">
+          <div className="col-sm-6">
+            <div className="ingredient-item" data-aos="fade-in" data-aos-duration="800">
+              <figure className="ingredient-icon">
+                <img src="./lemon.png" alt="lemon" />
+              </figure>
+
+              <p className="ingredient-title">
+                Fresh lemon
+              </p>
+            </div>
           </div>
 
-          <div className="col-md-7">
-            <div className="content-wrapper" data-aos="fade-in" data-aos-duration="800">
-              <div>
-                <p>
-                We source premium ingredients from KL's best supermarkets. Each of the ingredients is hand-picked and meets our strict standards for freshness and flavor.
-                </p>
-              </div>
+          <div className="col-sm-6">
+            <div className="ingredient-item" data-aos="fade-in" data-aos-duration="1200">
+              <figure className="ingredient-icon" >
+                <img src="./syrup.png" alt="lemon" />
+              </figure>
+
+              <p className="ingredient-title">
+                Premium sugar syrup
+              </p>
             </div>
           </div>
         </div>
 
-        <div className="row sub-section" data-aos-delay="2000">
-          <div className="col-md-5">
-            <figure className="image-wrapper" data-aos="fade-in" data-aos-duration="1000">
-              <img src="./asam-boi.webp" alt="asam boi" />
-            </figure>
+        <div className="ingredient-list row gx-0">
+          <div className="col-sm-6">
+            <div className="ingredient-item" data-aos="fade-in" data-aos-duration="1800">
+              <figure className="ingredient-icon">
+                <img src="./dried-plum.png" alt="asam boi" />
+              </figure>
+
+              <p className="ingredient-title">
+                Real asam boi
+              </p>
+            </div>
           </div>
 
-          <div className="col-md-7">
-            <div className="content-wrapper content-left" data-aos="fade-in" data-aos-duration="800">
-              <p>
-              Our ingredients are prepared fresh daily to preserve maximum taste. Both lemonade variants showcase quality ingredients crafted for that perfect refreshing experience.
+          <div className="col-sm-6">
+            <div className="ingredient-item" data-aos="fade-in" data-aos-duration="2400">
+              <figure className="ingredient-icon">
+                <img src="./pure-water.png" alt="pure water" />
+              </figure>
+
+              <p className="ingredient-title">
+                Purified water
               </p>
             </div>
           </div>

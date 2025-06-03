@@ -42,6 +42,31 @@
     margin-bottom: 30px;
   }
 
+  .ingredient-list {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .ingredient-item {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+
+    .ingredient-icon {
+      margin-right: 1rem;
+
+      img {
+        width: 5rem;;
+      }
+    }
+
+    .ingredient-title {
+      margin-bottom: 0;
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+  }
+
   @include mobile {
     text-align: center;
     
