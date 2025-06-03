@@ -1,0 +1,36 @@
+@use '../../variables' as *;
+
+.testimonials {
+  z-index: 1;
+  position: relative;
+  background-color: $color-light;
+
+  .main-section__title {
+    transform: translateY(-6rem);
+  }
+
+  .testimonial-wrapper {
+    margin-bottom: 3rem;
+  }
+
+  .item-wrapper {
+    
+  }
+
+  .testimonials__item {
+    width: 600px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 1rem;
+  }
+
+  .testimonials__name {
+    text-align: center;
+  }
+
+  .testimonials__content {
+    font-size: 1.2rem;
+    text-align: center;
+    font-style: italic;
+  }
+}
