@@ -31,6 +31,7 @@ const Products = () => {
                   <div className="figure-wrapper">
                     <figure className="product-image" data-aos="fade-in" data-aos-duration="1000">
                       <img src="./flemonade--original.webp" alt="original" />
+                      <img src="./lemon.webp" alt="lemon" />
                     </figure>
                   </div>
                 </div>
@@ -53,7 +54,7 @@ const Products = () => {
 
                     <div className="product-desc">
                       <div className="product-caption">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                      Freshly squeezed lemons blended with purified water and premium sugar for perfect balance.
                       </div>
                     </div>
                   </div>
@@ -91,7 +92,45 @@ const Products = () => {
 
                     <div className="product-desc">
                       <div className="product-caption">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                      Zesty lemons combined with authentic asam boi and premium sugar for bold tangy flavor.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="product-wrapper" data-aos="fade-in" data-aos-duration="1000">
+            <div className="product-inner item-card">
+              <div className="row gx-0">
+                <div className="col-md-5">
+                  <div className="figure-wrapper">
+                    <figure className="product-image" data-aos="fade-in" data-aos-duration="1000">
+                      <img src="./flemonade--sparkling.webp" alt="original" />
+                    </figure>
+                  </div>
+                </div>
+
+                <div className="col-md-7">
+                  <div className="content-wrapper" data-content-id="product-desc" data-aos="fade-in" data-aos-duration="800">
+                    <h2> Sparkling </h2>
+
+                    <div className="product-body">
+                      <div className="row">
+                        <div className="col-4">150 ml </div>
+                        <div className="col"><span className="price">RM 2.50</span></div>
+                      </div>
+
+                      <div className="row">
+                        <div className="col-4">450 ml </div>
+                        <div className="col"><span className="price">RM 5.00</span></div>
+                      </div>
+                    </div>
+
+                    <div className="product-desc">
+                      <div className="product-caption">
+                      Original flavour lemonade upgraded with refreshing carbonation and premium sugar for enhanced experience
                       </div>
                     </div>
                   </div>
