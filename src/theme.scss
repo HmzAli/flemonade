@@ -56,7 +56,7 @@ p {
   background-color: $color-secondary;
   color: $color-primary;
   border: 0;
-  box-shadow: -0.11rem 0.11rem 0.07rem rgba(0, 0, 0, 0.4);
+  box-shadow: -0.11rem 0.11rem 0.1rem rgba(0, 0, 0, 0.1);
   transition: all 0.1s ease-in-out;
   padding: 0.56rem 1.11rem;
 
@@ -124,6 +124,79 @@ p {
 // Image
 figure {
   margin: 0;
+}
+
+// Slick
+.slick-slider {
+  .slick-slide {
+    
+  }
+
+  .slick-arrow {
+    z-index: 100;
+    top: 50%;
+    bottom: 50%;
+    margin: auto;
+    width: 3.5rem;
+    height: 3.5rem;
+    transition: all .2s ease-in-out;
+
+
+    &:hover {
+      opacity: 0.5;
+    }
+
+    &.slick-next {
+      right: 1rem;
+
+      &:before {
+        background-image: url(/arrow-right.png);
+      }
+    }
+
+    &.slick-prev {
+      &:before {
+        background-image: url(/arrow-left.png);
+      }
+    }
+
+    &.slick-prev {
+      left: 1rem;
+    }
+
+    &:before,
+    &:after {
+      @include has-bg;
+      display: block;
+      color: transparent;
+      width: 3.5rem;
+      height: 3.5rem;
+      background-position: center center;
+    }
+  }
+
+  .slick-dots {
+    bottom: 1.5rem;
+
+    li.slick-active button:before {
+      color: $color-primary;
+    }
+
+    button {  
+      &:before {
+        font-size: 0.6rem;
+        transition: all .3s ease-in-out;
+      }
+    }
+  }
+}
+
+.item-card {
+  @include box-shadow-card;
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  margin: 1rem auto;
+  background-color: $color-bg-light;
 }
 
 // Others

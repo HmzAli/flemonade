@@ -5,8 +5,8 @@ const MainBanner = () => {
     <section className="main-banner">
       <div className="container">
         <div className="tagline" data-content-id="tagline">
-           <h1 className="tagline__title" data-aos="fade-in" data-aos-duration="500">HOME MADE LEMONADE</h1>
-           <p className="tagline__description" data-aos="fade-in" data-aos-duration="800">Premium Taste. Made for Everyone.</p>
+           <h1 className="tagline__title" data-aos="fade-in" data-aos-duration="500">Premium Taste. Made for Everyone</h1>
+           <p className="tagline__description" data-aos="fade-in" data-aos-duration="800">Fresh. Bold. Handmade. Zesty AF!</p>
         </div>
 
         <div className="cta-wrapper">
@@ -18,7 +18,7 @@ const MainBanner = () => {
         <img src="./main-banner.webp" alt="flemonade" />
       </figure>
 
-      <figure className="product-image" data-aos="fade-in" data-aos-duration="800">
+      <figure className="banner-image-2" data-aos="fade-in" data-aos-duration="800">
         <img src="./bottle-in-ice.webp" alt="product image" />
       </figure>
     </section>
