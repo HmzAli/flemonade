@@ -1,3 +1,4 @@
+import Cta from "../Cta";
 import "./Order.scss"
 
 interface OrderProps {
@@ -12,12 +13,12 @@ const Order = ({ className }: OrderProps) => {
       <div className="container">
         <h2 className="main-section__title">Ready to refresh your day?</h2>
         
-        <div className="cta-wrapper">
+        <div className="cta-section">
           <p className="order-info">
             Hit the button below to pre-order via WhatsApp.
           </p>
-          
-          <a target="_blank" href="https://wa.me/+601111474404" className="btn btn-dark">Order on whatsapp</a>
+
+          <Cta text="order on whatsapp" link="https://wa.me/+601111474404" variant="dark" icon="whatsapp" />
         </div>
 
         <div className="pickup-date">

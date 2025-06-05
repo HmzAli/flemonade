@@ -1,3 +1,4 @@
+import Cta from "../Cta"
 import "./MainBanner.scss"
 
 const MainBanner = () => {
@@ -9,9 +10,7 @@ const MainBanner = () => {
            <p className="tagline__description" data-aos="fade-in" data-aos-duration="800">Fresh. Bold. Handmade. Zesty AF!</p>
         </div>
 
-        <div className="cta-wrapper">
-          <a target="_blank" href="https://wa.me/+601111474404" className="btn btn-secondary">ORDER ON WHATSAPP</a>
-        </div>
+        <Cta text="order on whatsapp" link="https://wa.me/+601111474404" variant="secondary" icon="whatsapp" />
       </div>
 
       <figure className="banner-image" data-aos="fade-in" data-aos-duration="200">

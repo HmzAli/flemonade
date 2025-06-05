@@ -2,6 +2,7 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import "./Products.scss"
+import Cta from '../Cta'
 
 const Products = () => {
   const settings = {
@@ -144,9 +145,7 @@ const Products = () => {
           </div>
         </Slider>
 
-        <div className="cta-wrapper">
-          <a target="_blank" href="https://wa.me/+601111474404" className="btn btn-secondary">ORDER ON WHATSAPP</a>
-        </div>
+        <Cta text="order on whatsapp" link="https://wa.me/+601111474404" variant="secondary" icon="whatsapp" />
       </div>
     </section>
   )

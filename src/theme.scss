@@ -103,8 +103,32 @@ p {
     background-color: $color-secondary;
     color: $color-light;
 
+    &.icon svg path {
+      fill: $color-light;
+    }
+
     &:hover {
       background-color: $color-light !important;
+
+      &.icon svg path {
+        fill: $color-secondary !important;
+      }
+    }
+  }
+
+  &.has-icon {
+    display: inline-block;
+    position: relative;
+    padding-left: 2.2em;
+
+    .icon-whatsapp {
+      position: absolute;
+      left: 0.5em;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      width: 1.4em;
+      height: 1.4em;
     }
   }
 }
@@ -149,7 +173,6 @@ figure {
     width: 3.5rem;
     height: 3.5rem;
     transition: all .2s ease-in-out;
-
 
     &:hover {
       opacity: 0.5;
