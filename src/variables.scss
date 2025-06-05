@@ -5,6 +5,8 @@ $color-quaternary: #333;
 $color-quinary: #666;
 $color-senary: #999;
 $color-septenary: #ddd;
+$color-light: #ffffff;
+$color-bg-light: #f7f7f7;
 
 // Element colors
 $color-font: #333333;
@@ -12,6 +14,9 @@ $color-border: #e3e3e3;
 
 // shadows
 $text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.5);
+
+// Decoration
+$border-radius: 1rem;
 
 // Responsive
 @mixin larger-screen {
@@ -36,4 +41,54 @@ $text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.5);
   @media (max-width: 767px) {
     @content;
   }
+}
+
+// Images
+@mixin has-bg {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.image {
+  position: relative;
+
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+  }
+}
+
+.banner-image {
+  @extend .image;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.floating-image {
+  @extend .image;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+// Decorations
+@mixin box-shadow {
+  box-shadow: -0.11rem 0.11rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+
+@mixin box-shadow-card {
+  box-shadow: -0.112rem 0.112rem 0.5rem rgba(0, 0, 0, 0.1);
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
 }

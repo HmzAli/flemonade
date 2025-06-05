@@ -1,9 +1,23 @@
 @use '../../variables' as *;
 
 .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 240px;
   background-color: $color-secondary;
   color: $color-tertiary;
+  padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  text-align: center;
+
+  .connect {
+    margin-top: 1.5rem;
+  }
+
+  .social-links {
+    margin-top: 1.5rem;
+  }
   
 
   .container {

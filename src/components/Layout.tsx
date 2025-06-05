@@ -1,6 +1,7 @@
 import { ReactNode, useEffect } from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import { useLocation } from 'react-router-dom'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -10,6 +11,9 @@ interface LayoutProps {
 }
 
 function Layout({ children }: LayoutProps) {
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
+
   useEffect(() => {
     AOS.init({
       once: true,
@@ -18,13 +22,13 @@ function Layout({ children }: LayoutProps) {
   }, []);
 
   return (
-    <>
+    <div className={`main-content ${isHomePage ? 'home-page' : 'not-homepage'}`}>
       <Header />
-      <main className="main-content">
+      <main>
         {children}
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
 

@@ -26,7 +26,9 @@ For each page directory `{PageName}`:
 
 ## Component content guideline
   - All created components should be empty and only contain the skeleton for react markup
+  - All new components should not have any state unless explicitly stated
   - The className of newly created component should have 'main-section' class
 
 ## Module import guidelines
  - Use single quote in all module imports, e.g. import 'custom.scss'. This applies to all modules, JS, scss, TS, etc
+ - Make sure to use single quote when importing a module in JS e.g. import { useEffect } from 'react';

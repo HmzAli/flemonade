@@ -1,0 +1,30 @@
+@use '../../variables' as *;
+
+.logo {
+  display: flex;;
+  width: 13rem;
+  text-align: center;
+  transition: all .2s ease-in-out;
+  
+  a {
+    display: flex;
+    align-items: center;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  &--primary {
+    img {
+      filter: brightness(0) saturate(100%) invert(85%) sepia(30%) saturate(638%) hue-rotate(358deg) brightness(103%) contrast(107%);
+    }
+  }
+
+  &--invert {
+    img {
+      filter: brightness(0) invert(1);
+    }
+  }
+} 

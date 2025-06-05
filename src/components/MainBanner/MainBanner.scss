@@ -13,25 +13,31 @@
         color: inherit;
     }
 
-    @include tablet {
-        .tagline__title {
-            font-size: 6rem;
-        }
+    .cta-wrapper {
+        margin-top: 2rem;
+    }
 
-        .tagline__description {
-            font-size: 1.08rem;
+    .banner-image {
+        position: fixed;
+    }
+
+    @include desktop {
+        .tagline {
+            font-size: 0.7rem;
+        }
+    }
+
+    @include tablet {
+        .tagline {
+            font-size: 0.7rem;
         }
     }
 
     @include mobile {
-        height: 50vh;
+        height: 100vh;
 
         .tagline {
             transition: all .3s ease-in-out;
-        }
-
-        .tagline__title {
-            font-size: 3.5rem;
         }
 
         .tagline__description {
@@ -39,36 +45,41 @@
             margin-top: 0.5rem !important;
             margin: auto;
         }
+
+        .banner-image-2 {
+            bottom: -3.5rem;
+        }
     }
 }
 
-.banner-video {
+.banner-image-2 {
+    @extend .image;
     z-index: -1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    position: fixed;
+    left: -6rem;
+    bottom: -0.556rem;
+    width: 29rem;
+    height: 20.889rem;
 
-    video {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        filter: saturate(1.3);
+    img {
+        // filter: brightness(0.8);
+        object-fit: contain;
     }
 }
 
 .tagline {
     text-align: center;
+    font-size: 1rem;
+    margin-bottom: 0.3em;
 
     &__title {
-        font-size: 10rem;
-        margin-bottom: 0rem;
+        font-size: 3.5em;
+        margin-bottom: 0em;
         text-shadow: $text-shadow;
     }
 
     &__description {
-        font-size: 1.83rem;
+        font-size: 1.91em;
         text-shadow: $text-shadow;
     }
 }

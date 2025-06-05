@@ -1,0 +1,42 @@
+@use '../../variables' as *;
+
+.nav-button {
+  display: block;
+  position: relative;
+  width: 3.75rem;
+  height: 60px;
+  cursor: pointer;
+
+  .menu-btw-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+  }
+
+  .menu-btn {
+    position: absolute;
+    left: 0;
+    width: 60px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .menu-btn-open {
+    opacity: 1;
+  }
+
+  .menu-btn-close {
+    opacity: 0;
+  }
+
+  &.open {
+    .menu-btn-open {
+      opacity: 0;
+    }
+
+    .menu-btn-close {
+      opacity: 1;
+    }
+  }
+} 
