@@ -12,9 +12,9 @@
 body {
     .section-sep {
         @include mobile {
-            width: 15.333rem;
-            top: -3.0rem;
-            left: 0;
+            width: 20.333rem;
+            top: -3.5rem;
+            left: 25px;
         }
     }
 

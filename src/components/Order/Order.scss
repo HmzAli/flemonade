@@ -38,6 +38,12 @@
   }
 
   @include mobile {
+    .container {
+      .main-section__title {
+        margin-bottom: 3rem;
+      }
+    }
+    
     .section-sep {
       @include mobile {
         top: -3rem;
