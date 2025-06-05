@@ -14,11 +14,13 @@ const Order = ({ className }: OrderProps) => {
         <h2 className="main-section__title">Ready to refresh your day?</h2>
         
         <div className="cta-section">
-          <p className="order-info">
+          <p className="order-info" data-aos="fade-in" data-aos-duration="500">
             Hit the button below to pre-order via WhatsApp.
           </p>
 
-          <Cta text="order on whatsapp" link="https://wa.me/+601111474404" variant="dark" icon="whatsapp" />
+          <div data-aos="fade-in" data-aos-duration="500">
+            <Cta text="order on whatsapp" link="https://wa.me/+601111474404" variant="dark" icon="whatsapp"/>
+          </div>
         </div>
 
         <div className="pickup-date">

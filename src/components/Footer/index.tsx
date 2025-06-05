@@ -3,7 +3,7 @@ import "./Footer.scss"
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="container">
+      <div className="container" data-aos="fade-in" data-aos-duration="500">
         <div className="connect">
           <h4> Connect with us </h4>
           <ul className="social-links">
