@@ -48,7 +48,8 @@
 
 body {
   #header {
-    &.scrolled {
+    &.scrolled,
+    &.not-in-homepage {
       @include box-shadow;
       
       .header-outer {
