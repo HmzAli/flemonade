@@ -15,10 +15,10 @@ const Navbar = ({ isMenuOpen, closeMenu }: NavbarProps) => {
             <Link to="/" className="nav-link" onClick={closeMenu}>Home</Link>
           </li>
           <li>
-            <Link to="/story" className="nav-link" onClick={closeMenu}>Story</Link>
+            <Link to="/about-us" className="nav-link" onClick={closeMenu}>Story</Link>
           </li>
           <li>
-            <Link to="/contact" className="nav-link" onClick={closeMenu}>Contact</Link>
+            <Link to="/partner" className="nav-link" onClick={closeMenu}>Patner with us</Link>
           </li>
         </ul>
       </nav>

@@ -1,8 +1,12 @@
 import "./Order.scss"
 
-const Order = () => {
+interface OrderProps {
+  className?: string;
+}
+
+const Order = ({ className }: OrderProps) => {
   return (
-    <section className="order main-section">
+    <section className={`order main-section ${className || ''}`}>
       <img src="./bottle-silhouette-yellow.png" className="section-sep" />
 
       <div className="container">

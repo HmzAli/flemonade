@@ -15,6 +15,9 @@ $color-border: #e3e3e3;
 // shadows
 $text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.5);
 
+// Decoration
+$border-radius: 1rem;
+
 // Responsive
 @mixin larger-screen {
   @media (min-width: 1400px) {

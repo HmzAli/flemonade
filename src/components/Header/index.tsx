@@ -4,6 +4,8 @@ import Navbar from '../Navbar'
 import { useState, useEffect } from 'react'
 import NavButton from '../NavButton'
 
+const isHomePage = location.pathname === '/';
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
@@ -38,7 +40,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header id="header" className={isScrolled ? 'scrolled' : ''}>
+    <header id="header" className={(isScrolled || !isHomePage) ? 'scrolled' : ''}>
       <div className="header-outer">
         <div className="container">
           <div className="header-inner">
