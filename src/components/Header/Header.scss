@@ -44,6 +44,16 @@
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
+
+  @include mobile {
+    .logo {
+      width: 8rem;
+    }
+
+    .nav-button .menu-btn {
+      width: 2.5rem;
+    }
+  }
 }
 
 body {

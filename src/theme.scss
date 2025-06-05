@@ -60,7 +60,6 @@ p {
   border-radius: 0;
   background-color: $color-secondary;
   color: $color-primary;
-  border: 0;
   box-shadow: -0.11rem 0.11rem 0.1rem rgba(0, 0, 0, 0.1);
   transition: all 0.1s ease-in-out;
   padding: 0.56rem 1.11rem;
@@ -68,7 +67,6 @@ p {
 
   &:hover,
   &:active {
-    border: 0;
     background-color: $color-primary !important;
     color: $color-secondary !important;
   }
@@ -115,6 +113,7 @@ p {
 
     &:hover {
       background-color: $color-light !important;
+      border-color: transparent;
 
       &.icon svg path {
         fill: $color-secondary !important;
@@ -226,6 +225,31 @@ figure {
         font-size: 0.6rem;
         transition: all .3s ease-in-out;
       }
+    }
+  }
+
+  @include mobile {
+    .slick-arrow {
+      width: 2.5rem;
+      height: 3rem;
+    }
+
+    .slick-arrow.slick-next {
+      &:before {
+        width: 2.5rem;
+        height: 3rem;
+      }
+
+      right: 0;
+    }
+
+    .slick-arrow.slick-prev {
+      &:before {
+        width: 2.5rem;
+        height: 3rem;
+      }
+
+      left: 0;
     }
   }
 }

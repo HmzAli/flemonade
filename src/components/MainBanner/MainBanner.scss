@@ -21,31 +21,33 @@
         position: fixed;
     }
 
-    @include tablet {
-        .tagline__title {
-            font-size: 3.5rem;
+    @include desktop {
+        .tagline {
+            font-size: 0.7rem;
         }
+    }
 
-        .tagline__description {
-            font-size: 1.08rem;
+    @include tablet {
+        .tagline {
+            font-size: 0.7rem;
         }
     }
 
     @include mobile {
-        height: 50vh;
+        height: 100vh;
 
         .tagline {
             transition: all .3s ease-in-out;
-        }
-
-        .tagline__title {
-            font-size: 3.5rem;
         }
 
         .tagline__description {
             width: 17rem;
             margin-top: 0.5rem !important;
             margin: auto;
+        }
+
+        .banner-image-2 {
+            bottom: -3.5rem;
         }
     }
 }
