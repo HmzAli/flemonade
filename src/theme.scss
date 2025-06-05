@@ -178,13 +178,14 @@ figure {
     width: 3.5rem;
     height: 3.5rem;
     transition: all .2s ease-in-out;
+    opacity: 0.5;
 
     &:hover {
-      opacity: 0.5;
+      opacity: 0.3;
     }
 
     &.slick-next {
-      right: 1rem;
+      right: 10rem;
 
       &:before {
         background-image: url(/arrow-right.png);
@@ -198,7 +199,7 @@ figure {
     }
 
     &.slick-prev {
-      left: 1rem;
+      left: 10rem;
     }
 
     &:before,
