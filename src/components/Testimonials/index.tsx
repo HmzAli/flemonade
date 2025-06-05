@@ -38,7 +38,7 @@ const Testimonials = () => {
 
       <h2 className="main-section__title" data-content-id="testimonials-section-title">What Our Customers Say</h2>
 
-      <div className="testimonial-wrapper">
+      <div className="testimonial-wrapper" data-aos="fade-in" data-aos-duration="500" >
         <Slider {...settings}>
           {testimonials.map((testimonial, index) => (
             <div className="item-wrapper">
