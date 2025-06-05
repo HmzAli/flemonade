@@ -40,6 +40,12 @@
             transition: all .3s ease-in-out;
         }
 
+        .tagline__title {
+            max-width: 20.8rem;
+            line-height: 1.5em;
+            margin: auto;
+        }
+
         .tagline__description {
             width: 17rem;
             margin-top: 0.5rem !important;

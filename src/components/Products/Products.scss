@@ -79,10 +79,6 @@
     }
   }
 
-  .product-image {
-    
-  }
-
   .product-variation {
     max-height: 21.5rem;
   }
@@ -90,6 +86,14 @@
   @include mobile {
     &.main-section {
       padding-bottom: 2rem;
+    }
+
+    .cta-wrapper {
+      margin-bottom: 5rem;
+    }
+
+    .product-wrapper {
+      padding: 1.125rem;
     }
 
     .product-image {
@@ -101,7 +105,11 @@
     }
 
     .content-wrapper {
-      text-align: center;
+      text-align: left;
+    }
+
+    .product-caption {
+      text-align: left;
     }
 
     .product-variation {
