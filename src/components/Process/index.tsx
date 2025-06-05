@@ -5,10 +5,10 @@ const Process = () => {
     <section className="process main-section">
       <img src="./bottle-silhouette-yellow.png" className="section-sep" />
 
-      <div className="container" data-aos="fade-in" data-aos-duration="500">
+      <div className="container">
         <h2 className="main-section__title"> Ingredients </h2>
 
-        <div className="ingredients-wrapper">
+        <div className="ingredients-wrapper" data-aos="fade-in" data-aos-duration="500">
           <div className="ingredient-list row gx-0">
             <div className="col-sm-6">
               <div className="ingredient-item">

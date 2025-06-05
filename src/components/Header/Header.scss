@@ -53,7 +53,8 @@ body {
       @include box-shadow;
       
       .header-outer {
-        background: rgba(241, 204, 27, 0.9);
+        background: rgba(241, 204, 27, 0.6);
+        backdrop-filter: blur(10px);
       }
 
       .header-inner {

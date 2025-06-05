@@ -6,10 +6,12 @@
 
 /* Global Styles */
 html {
+  position: relative;
   font-family: 'Merriweather Sans';
   font-weight: 300;
   line-height: 1.5;
   font-size: 18px;
+  height: 100%;
 
   @include mobile {
     font-size: 16px;
@@ -17,9 +19,12 @@ html {
 }
 
 body {
+  position: relative;
   font-family: inherit;
   font-weight: inherit;
   font-size: 1rem;
+  min-height: 100vh;
+  padding-bottom: 230px;
 }
 
 // Typeography
@@ -59,6 +64,7 @@ p {
   box-shadow: -0.11rem 0.11rem 0.1rem rgba(0, 0, 0, 0.1);
   transition: all 0.1s ease-in-out;
   padding: 0.56rem 1.11rem;
+  border: 0.04em solid transparent;
 
   &:hover,
   &:active {
@@ -68,7 +74,7 @@ p {
   }
 
   &:active {
-    box-shadow: -0.07rem 0.06rem 0.06rem rgba(0, 0, 0, 0.4) !important;
+    box-shadow: -0.07rem 0.06rem 0.06rem rgba(0, 0, 0, 0.2) !important;
     transform: translate(-0.06rem, 0.06rem);
   }
 
@@ -78,7 +84,7 @@ p {
 
     &:hover,
     &:active {
-      border: 0;
+      border: .04em solid rgba(0, 0, 0, 0.2);
       background-color: $color-tertiary !important;
       color: $color-secondary !important;
     }

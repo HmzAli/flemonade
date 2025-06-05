@@ -22,7 +22,7 @@
     background-color: rgba(241, 204, 27, 1);
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
-    transition: all 650ms cubic-bezier(1,0,0,1);
+    transition: all 400ms cubic-bezier(1,0,0,1);
   }
 
   nav.open {
@@ -47,6 +47,7 @@
 
   .nav-link {
     font-size: 2rem;
+    font-weight: 500;
     padding: 1.2rem;
 
     &:hover {
