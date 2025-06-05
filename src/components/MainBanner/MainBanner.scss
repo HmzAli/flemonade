@@ -36,6 +36,14 @@
     @include mobile {
         height: 100vh;
 
+        .banner-image {
+            position: absolute;
+        }
+
+        .banner-image-2 {
+            position: absolute;
+        }
+
         .tagline {
             transition: all .3s ease-in-out;
         }
