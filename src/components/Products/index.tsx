@@ -15,6 +15,15 @@ const Products = () => {
     arrows: true,
     autoplay: true,
     pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        autoplaySpeed: 3000,
+        settings: {
+          arrows: false
+        }
+      }
+    ]
   };
 
   return (
