@@ -10,12 +10,14 @@ function AboutUs() {
           <div className="row">
             <div className="col-md-6">
               <h2> Our Story </h2>
-          
-              <p>Our story begins in a humble home kitchen in Bangi, where Flemonade was born from a simple desire to create something pure and refreshing. We believe in keeping things real – every bottle is crafted with genuine lemons and premium sugar, no artificial flavors, no shortcuts, no bullshit.</p>
 
-              <p>Every batch is still made by hand because we believe that care can't be automated. Our small-batch approach lets us control every aspect of the process, from selecting the juiciest lemons to achieving that perfect balance of sweet and tart.</p>
+              <p>Flemonade was born in a humble home kitchen in Bangi, sparked by something deeply personal — our founder’s parents love lemonade, but could never find one that was truly fresh, healthy, and unprocessed. Most drinks on the shelves were full of artificial flavorings, preservatives, and sugar overload. So we set out to change that.</p>
 
-              <p>We make Flemonade because we care about what goes into your glass. From our kitchen in Bangi to your table, we're committed to honest craftsmanship and genuine flavor.</p>
+              <p>We believe in keeping things real — every bottle of Flemonade is made with genuine lemons, premium sugar, and zero shortcuts. No artificial flavors. No preservatives.</p>
+
+              <p>Our small-batch, handcrafted approach allows us to obsess over the details — from selecting the juiciest lemons to getting that perfect sweet-tart balance in every sip. We still make Flemonade by hand, because we believe care can’t be automated.</p>
+
+              <p>From our kitchen in Bangi to your table, Flemonade is built on honest craftsmanship, bold flavors, and a mission to give everyone a taste of something real.</p>
             </div>
 
             <div className="col-md-6">
