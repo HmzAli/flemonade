@@ -13,7 +13,7 @@ const Products = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    autoplay: true,
+    autoplay: false,
     pauseOnHover: true,
     responsive: [
       {
