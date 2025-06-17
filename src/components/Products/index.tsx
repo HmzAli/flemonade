@@ -13,7 +13,7 @@ const Products = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    autoplay: true,
+    autoplay: false,
     pauseOnHover: true,
     responsive: [
       {
@@ -132,13 +132,8 @@ const Products = () => {
 
                     <div className="product-body">
                       <div className="row">
-                        <div className="col-4">150 ml </div>
-                        <div className="col"><span className="price">RM 2.50</span></div>
-                      </div>
-
-                      <div className="row">
-                        <div className="col-4">450 ml </div>
-                        <div className="col"><span className="price">RM 5.00</span></div>
+                        <div className="col-4">1 bottle </div>
+                        <div className="col"><span className="price">RM 6.50</span></div>
                       </div>
                     </div>
 
