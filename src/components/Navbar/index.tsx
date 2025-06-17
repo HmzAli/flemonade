@@ -18,7 +18,7 @@ const Navbar = ({ isMenuOpen, closeMenu }: NavbarProps) => {
             <Link to="/about-us" className="nav-link" onClick={closeMenu}>Story</Link>
           </li>
           <li>
-            <Link to="/partner" className="nav-link" onClick={closeMenu}>Patner with us</Link>
+            <Link to="/partner" className="nav-link" onClick={closeMenu}>Partner with us</Link>
           </li>
         </ul>
       </nav>
