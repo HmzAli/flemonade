@@ -59,7 +59,7 @@ const Products = () => {
 
                       <div className="row">
                         <div className="col-4">450 ml </div>
-                        <div className="col"><span className="price">RM 6.50</span></div>
+                        <div className="col"><span className="price">RM 6.00</span></div>
                       </div>
                     </div>
 
@@ -98,7 +98,7 @@ const Products = () => {
 
                       <div className="row">
                         <div className="col-4">450 ml </div>
-                        <div className="col"><span className="price">RM 6.50</span></div>
+                        <div className="col"><span className="price">RM 6.00</span></div>
                       </div>
                     </div>
 
