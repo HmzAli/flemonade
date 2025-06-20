@@ -292,3 +292,23 @@ figure {
 .section-sep {
   width: 33.333rem;
 }
+
+p {
+  a {
+    text-decoration: none;
+    color: #007bff !important;
+    border-bottom: 1px dotted #007bff;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      color: #0056b3 !important;
+      border-color: #0056b3;
+    }
+  }
+}
+
+small {
+  font-style: italic;
+  font-size: .8rem;
+  color: #999;
+}

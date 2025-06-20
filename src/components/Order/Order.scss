@@ -6,13 +6,26 @@
   padding-bottom: 3rem;
   // color: $color-tertiary;
 
+  h5 {
+    margin-bottom: 1rem;
+  }
+
   .main-section__title {
     transform: translateY(-6rem);
     cursor: pointer;
   }
 
-  .pickup-date {
+  .pickup-info {
+    max-width: 800px;
+    margin: auto;
     text-align: center;
+  }
+
+  .delivery-info {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
   }
 
   .cta-section {
@@ -59,3 +72,8 @@
     }
   }
 } 
+
+.delivery-wrapper {
+  max-width: 700px;
+  margin: auto;
+}

@@ -23,9 +23,23 @@ const Order = ({ className }: OrderProps) => {
           </div>
         </div>
 
-        <div className="pickup-date">
-          <h5>Next pick-up</h5>
-          <p>Tuesday, 7 May @ Level 6, 9–12pm</p>
+        <div className="delivery-wrapper">
+          <div className="pickup-info"> 
+            <h5>Pickup & Delivery</h5>
+            <p>All orders are currently <strong>self-pickup only</strong> at our base in <a className="text-link" target="_blank" href="https://maps.app.goo.gl/LFw2PWNYikXiZR3q6">SME Bank HQ (Level 6)</a>. </p>
+            
+            <p>We can also arrange pickup at <a className="text-link" target="_blank" href="https://maps.app.goo.gl/zVM4menenb1ZPdLr8">Surau Al Amirin Seksyen 4 Bandar Baru Bangi</a>.</p>
+          </div>
+
+          <div className="delivery-info">
+            <h5>Delivery</h5>
+              <p>Need delivery? We offer it for <strong>orders RM100+</strong>. </p>
+            
+              <p>DM us to check availability for bulk or out-of-area delivery.</p>
+
+              <small><strong>NOTE:</strong> Delivery charges to be <strong>covered by customer</strong> (via Lalamove, Grab, etc).</small>
+          </div>
+          
         </div>
       </div>
     </section>
