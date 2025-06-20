@@ -5,15 +5,17 @@ import Process from '../../components/Process'
 import Testimonials from '../../components/Testimonials'
 import Order from '../../components/Order'
 import './Index.scss'
+import ComingSoon from '../ComingSoon'
 
 function Index() {
   return (
     <Layout>
-      <MainBanner />
+      <ComingSoon />
+      {/* <MainBanner />
       <Products />
       <Process />
       <Testimonials />
-      <Order />
+      <Order /> */}
     </Layout>
   )
 }

@@ -3,7 +3,7 @@ import './Logo.scss'
 import { Link } from 'react-router'
 
 interface LogoProps {
-  variant?: 'primary' | 'invert'
+  variant?: 'primary' | 'invert' | 'black'
 }
 
 const Logo: FC<LogoProps> = ({ variant = 'primary' }) => {
