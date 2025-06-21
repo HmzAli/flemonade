@@ -26,7 +26,7 @@ const Order = ({ className }: OrderProps) => {
         <div className="delivery-wrapper">
           <div className="pickup-info"> 
             <h5>Pickup & Delivery</h5>
-            <p>All orders are currently <strong>self-pickup only</strong> at our base in <a className="text-link" target="_blank" href="https://maps.app.goo.gl/LFw2PWNYikXiZR3q6">SME Bank HQ (Level 6)</a>. </p>
+            <p>All orders are currently <strong>self-pickup only</strong> at our base in <a className="text-link" target="_blank" href="https://maps.app.goo.gl/LFw2PWNYikXiZR3q6">SME Bank HQ</a>. </p>
             
             <p>We can also arrange pickup at <a className="text-link" target="_blank" href="https://maps.app.goo.gl/zVM4menenb1ZPdLr8">Surau Al Amirin Seksyen 4 Bandar Baru Bangi</a>.</p>
           </div>
