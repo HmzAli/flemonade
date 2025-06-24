@@ -14,6 +14,7 @@ function Index() {
           <meta charSet="utf-8" />
           <title>FLEMONADE</title>
           <link rel="canonical" href="https://flemonade.com" />
+          <meta name="description" content="Premium home-made lemonade" />
       </Helmet>
 
       <MainBanner />

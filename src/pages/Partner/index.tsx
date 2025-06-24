@@ -10,6 +10,7 @@ function Partner() {
           <meta charSet="utf-8" />
           <title>Partner With Us - FLEMONADE</title>
           <link rel="canonical" href="https://flemonade.com/partner" />
+          <meta name="description" content="Partner with Flemonade for wholesale fresh lemonade. We supply cafés, offices & events with custom orders and delivery. Make your menu more zesty with our handcrafted drinks." />
       </Helmet>
 
       <div className="partner main-section" data-aos="fade-in" data-aos-duration="500">
