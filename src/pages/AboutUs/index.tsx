@@ -1,11 +1,19 @@
 import Layout from '../../components/Layout'
 import Order from '../../components/Order'
+import { Helmet } from 'react-helmet';
+
 import './AboutUs.scss'
 
 function AboutUs() {
   return (
     <Layout>
       <div className="about-us main-section" data-aos="fade-in" data-duration="500">
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>About Us - FLEMONADE</title>
+            <link rel="canonical" href="https://flemonade.com/about-us" />
+        </Helmet>
+            
         <div className="container">
           <div className="row">
             <div className="col-md-6">

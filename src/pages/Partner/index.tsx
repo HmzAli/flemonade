@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet'
 import Cta from '../../components/Cta'
 import Layout from '../../components/Layout'
 import './Partner.scss'
@@ -5,9 +6,15 @@ import './Partner.scss'
 function Partner() {
   return (
     <Layout>
+      <Helmet>
+          <meta charSet="utf-8" />
+          <title>Partner With Us - FLEMONADE</title>
+          <link rel="canonical" href="https://flemonade.com/partner" />
+      </Helmet>
+
       <div className="partner main-section" data-aos="fade-in" data-aos-duration="500">
         <div className="container">
-          <h2 className="main-section__title">Partner With Us</h2>
+          <h2 className="text-center">Partner With Us</h2>
           
           <div className="partner-content text-center">
             <p className="lead mb-4">
