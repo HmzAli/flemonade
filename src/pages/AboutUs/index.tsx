@@ -1,20 +1,19 @@
 import Layout from '../../components/Layout'
 import Order from '../../components/Order'
-import { Helmet } from 'react-helmet';
+import { PageMetadata } from '../../components/PageMetaData'
 
 import './AboutUs.scss'
 
 function AboutUs() {
   return (
     <Layout>
+      <PageMetadata
+        title="About Us - FLEMONADE"
+        description="Discover the story behind Flemonade — born from a home kitchen in Bangi, inspired by love for fresh, healthy lemonade. Honest ingredients, handcrafted in small batches."
+        canonical="https://flemonade.com/about-us"
+      />
+
       <div className="about-us main-section" data-aos="fade-in" data-duration="500">
-        <Helmet>
-            <meta charSet="utf-8" />
-            <title>About Us - FLEMONADE</title>
-            <link rel="canonical" href="https://flemonade.com/about-us" />
-            <meta name="description" content="Discover the story behind Flemonade — born from a home kitchen in Bangi, inspired by love for fresh, healthy lemonade. Honest ingredients, handcrafted in small batches." />
-        </Helmet>
-            
         <div className="container">
           <div className="row">
             <div className="col-md-6">

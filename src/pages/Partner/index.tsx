@@ -1,17 +1,16 @@
-import { Helmet } from 'react-helmet'
 import Cta from '../../components/Cta'
 import Layout from '../../components/Layout'
 import './Partner.scss'
+import { PageMetadata } from '../../components/PageMetaData'
 
 function Partner() {
   return (
     <Layout>
-      <Helmet>
-          <meta charSet="utf-8" />
-          <title>Partner With Us - FLEMONADE</title>
-          <link rel="canonical" href="https://flemonade.com/partner" />
-          <meta name="description" content="Interested in retailing or serving Flemonade? Partner with us for wholesale supply, cafe collaborations, or event catering in Kuala Lumpur and Selangor." />
-      </Helmet>
+      <PageMetadata
+        title="Partner - FLEMONADE"
+        description="Interested in retailing or serving Flemonade? Partner with us for wholesale supply, cafe collaborations, or event catering in Kuala Lumpur and Selangor."
+        canonical="https://flemonade.com/partner"
+      />
 
       <div className="partner main-section" data-aos="fade-in" data-aos-duration="500">
         <div className="container">

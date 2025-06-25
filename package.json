@@ -1,5 +1,5 @@
 {
-  "name": "site-name",
+  "name": "flemonade",
   "private": true,
   "version": "0.0.0",
   "homepage": "https://hmzali.github.io/flemonade",
@@ -20,7 +20,6 @@
     "npm": "^11.4.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-helmet": "^6.1.0",
     "react-router": "^7.5.3",
     "react-router-dom": "^7.6.0",
     "react-slick": "^0.30.3",
@@ -45,6 +44,7 @@
     "sass": "^1.87.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.26.1",
-    "vite": "^6.3.1"
+    "vite": "^6.3.1",
+    "vite-plugin-html": "^3.2.2"
   }
 }
