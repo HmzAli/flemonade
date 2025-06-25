@@ -12,7 +12,7 @@ function AboutUs() {
             <meta charSet="utf-8" />
             <title>About Us - FLEMONADE</title>
             <link rel="canonical" href="https://flemonade.com/about-us" />
-            <meta name="description" content="Flemonade crafts fresh, handmade lemonade with real lemons and premium sugar. No artificial flavors or preservatives. Small-batch artisan drinks made in Bangi, Malaysia." />
+            <meta name="description" content="Discover the story behind Flemonade — born from a home kitchen in Bangi, inspired by love for fresh, healthy lemonade. Honest ingredients, handcrafted in small batches." />
         </Helmet>
             
         <div className="container">

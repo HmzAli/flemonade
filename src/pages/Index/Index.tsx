@@ -14,7 +14,7 @@ function Index() {
           <meta charSet="utf-8" />
           <title>FLEMONADE</title>
           <link rel="canonical" href="https://flemonade.com" />
-          <meta name="description" content="Premium home-made lemonade" />
+          <meta name="description" content="Flemonade is a handcrafted lemonade brand based in Bangi, Malaysia — made with real lemons, premium sugar, and no shortcuts. Order online, pick up weekly in KL." />
       </Helmet>
 
       <MainBanner />
