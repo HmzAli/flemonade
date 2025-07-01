@@ -54,12 +54,12 @@ const Products = () => {
                     <div className="product-body">
                       <div className="row">
                         <div className="col-4">150 ml </div>
-                        <div className="col"><span className="price">RM 2.50</span></div>
+                        <div className="col"><span className="price">RM 3.50</span></div>
                       </div>
 
                       <div className="row">
                         <div className="col-4">450 ml </div>
-                        <div className="col"><span className="price">RM 5.00</span></div>
+                        <div className="col"><span className="price">RM 6.00</span></div>
                       </div>
                     </div>
 
@@ -93,12 +93,12 @@ const Products = () => {
                     <div className="product-body">
                       <div className="row">
                         <div className="col-4">150 ml </div>
-                        <div className="col"><span className="price">RM 2.50</span></div>
+                        <div className="col"><span className="price">RM 3.50</span></div>
                       </div>
 
                       <div className="row">
                         <div className="col-4">450 ml </div>
-                        <div className="col"><span className="price">RM 5.00</span></div>
+                        <div className="col"><span className="price">RM 6.00</span></div>
                       </div>
                     </div>
 
@@ -133,7 +133,7 @@ const Products = () => {
                     <div className="product-body">
                       <div className="row">
                         <div className="col-4">450 ml </div>
-                        <div className="col"><span className="price">RM 6.50</span></div>
+                        <div className="col"><span className="price">RM 7.50</span></div>
                       </div>
                     </div>
 
