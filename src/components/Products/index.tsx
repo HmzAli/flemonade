@@ -79,7 +79,7 @@ const Products = () => {
               <div className="row gx-0">
                 <div className="col-md-5">
                   <div className="figure-wrapper">
-                    <img src="./asam-boi.png" alt="asam-bai" className="asam-boi" />
+                    <img src="./asam-boi.png" alt="asam-bai" className="image-secondary" />
                     <figure className="product-image" data-aos="fade-in" data-aos-duration="1000">
                       <img src="./flemonade--asam-boi.webp" alt="original" />
                     </figure>
@@ -118,7 +118,7 @@ const Products = () => {
               <div className="row gx-0">
                 <div className="col-md-5">
                   <div className="figure-wrapper">
-                    <img src="./sparkling.png" alt="asam-bai" className="asam-boi" />
+                    <img src="./sparkling.png" alt="asam-bai" className="image-secondary" />
 
                     <figure className="product-image" data-aos="fade-in" data-aos-duration="1000">
                       <img src="./flemonade--sparkling.webp" alt="original" />
