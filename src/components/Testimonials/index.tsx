@@ -11,7 +11,7 @@ const Testimonials = () => {
     },
     {
       name: "En Amin",
-      content: "RM5 je?? Gila repeat"
+      content: "RM6 je?? Gila repeat"
     },
     {
       name: "Faruq",
